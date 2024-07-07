@@ -26,6 +26,7 @@
     color: white;
     padding: 18px 35px;
     border: none;
+    cursor: pointer;
 }
 .section-title{
     font-size: 35px;
@@ -130,4 +131,24 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Resume styles */
+
+.resume-container{
+    display: flex;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 20px;
+}
+.resume-download-cv{
+    margin: 50px;
 }
